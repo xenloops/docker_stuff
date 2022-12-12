@@ -180,4 +180,44 @@ Removes one or more networks
 ```docker network rm```
 
   
+## Hub and Registry Commands
+
+Register or log in to a Docker registry
+
+```docker login```
+
+Log out from a Docker registry
+
+```docker logout```
+
+Pull an image or a repository from a Docker registry
+
+```docker pull```
+
+Push an image or a repository to a Docker registry
+
+```docker push```
+
+Search the Docker Hub for images
+
+```docker search```
+  
+
+## Shared Data Volume Commands
+
+Create a new volume where containers can consume and store data
+
+```docker volumes create```
+
+Display information about a volume
+
+```docker volumes inspect```
+
+Lists all the volumes Docker knows about
+
+```docker volumes ls```
+
+Remove one or more volumes
+
+```docker volumes rm```
   
